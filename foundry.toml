@@ -2,3 +2,6 @@
 src = 'contracts/evm'
 out = 'out'
 libs = ['lib']
+
+[rpc_endpoints]
+goerli = "${GOERLI_RPC_URL}"
